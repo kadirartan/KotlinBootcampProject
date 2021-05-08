@@ -14,21 +14,17 @@
             android:id="@+id/action_splashScreenFragment_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment" />
         <action
-            android:id="@+id/action_splashScreenFragment_to_beginFragment"
-            app:destination="@id/beginFragment" />
+            android:id="@+id/action_splashScreenFragment_to_beginingActivity"
+            app:destination="@id/beginingActivity" />
     </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"
         android:name="com.example.kotlinbootcampprojectv11.onboarding.ViewPagerFragment"
         android:label="fragment_view_pager"
-        tools:layout="@layout/fragment_view_pager" >
-        <action
-            android:id="@+id/action_viewPagerFragment_to_beginFragment"
-            app:destination="@id/beginFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/beginFragment"
-        android:name="com.example.kotlinbootcampprojectv11.BeginFragment"
-        android:label="fragment_begin"
-        tools:layout="@layout/fragment_begin" />
+        tools:layout="@layout/fragment_view_pager" />
+    <activity
+        android:id="@+id/beginingActivity"
+        android:name="com.example.kotlinbootcampprojectv11.BeginingActivity"
+        android:label="activity_begining"
+        tools:layout="@layout/activity_begining" />
 </navigation>

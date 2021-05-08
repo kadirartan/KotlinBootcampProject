@@ -19,9 +19,9 @@ class SecondScreen : Fragment() {
 
         val view =  inflater.inflate(R.layout.fragment_second_screen, container, false)
 
-        view.finish.seOnClickListener {
+        /*view.finish.seOnClickListener {
             findNavController().navigate(R.id.action_viewPagerFragment_to_beginFragment)
-        }
+        }*/
 
         return view
     }

@@ -18,7 +18,7 @@ class SplashScreenFragment : Fragment() {
 
         Handler().postDelayed({
             if(onBoardingFinished()) {
-                findNavController().navigate(R.id.action_splashScreenFragment_to_beginFragment)
+                findNavController().navigate(R.id.action_splashScreenFragment_to_beginingActivity)
             }else{
                 findNavController().navigate(R.id.action_splashScreenFragment_to_viewPagerFragment)
             }
